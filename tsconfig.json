@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es6",                                    /* Transpilar para ES6 */
+    
+    /* Modules */
+    "module": "commonjs",                               /* Usar CommonJS como padrão de módulo */
+    "moduleResolution": "node",                         /* Resolve módulos como o Node.js */
+    
+    /* Paths */
+    "outDir": "./dist",                                 /* Diretório de saída para arquivos compilados */
+    "rootDir": "./src",                                 /* Diretório de origem dos arquivos TypeScript */
+    
+    /* Interop Constraints */
+    "esModuleInterop": true,                            /* Suporte para importação de CommonJS */
+    "forceConsistentCasingInFileNames": true,           /* Garante a consistência de letras maiúsculas/minúsculas em imports */
+    
+    /* Type Checking */
+    "strict": true,                                     /* Ativar todas as verificações estritas */
+    
+    /* Completeness */
+    "skipLibCheck": true                                /* Ignorar verificação de tipos em arquivos de definição de bibliotecas */
+  },
+  "include": ["src/**/*.ts", "src/routes.ts"],                           /* Incluir arquivos .ts na pasta src */
+  "exclude": ["node_modules", "dist"]                   /* Excluir node_modules e dist */
+}
